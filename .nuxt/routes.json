@@ -1,0 +1,43 @@
+[
+  {
+    "path": "/",
+    "component": "/Users/alh/Desktop/codes/notes/14.nuxtJs/realworld-nuxtjs/pages/layout",
+    "children": [
+      {
+        "path": "",
+        "name": "home",
+        "component": "/Users/alh/Desktop/codes/notes/14.nuxtJs/realworld-nuxtjs/pages/home"
+      },
+      {
+        "path": "/login",
+        "name": "login",
+        "component": "/Users/alh/Desktop/codes/notes/14.nuxtJs/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/register",
+        "name": "register",
+        "component": "/Users/alh/Desktop/codes/notes/14.nuxtJs/realworld-nuxtjs/pages/login"
+      },
+      {
+        "path": "/profile/:username",
+        "name": "profile",
+        "component": "/Users/alh/Desktop/codes/notes/14.nuxtJs/realworld-nuxtjs/pages/profile"
+      },
+      {
+        "path": "/settings",
+        "name": "settings",
+        "component": "/Users/alh/Desktop/codes/notes/14.nuxtJs/realworld-nuxtjs/pages/settings"
+      },
+      {
+        "path": "/editor",
+        "name": "editor",
+        "component": "/Users/alh/Desktop/codes/notes/14.nuxtJs/realworld-nuxtjs/pages/editor"
+      },
+      {
+        "path": "/article/:slug",
+        "name": "article",
+        "component": "/Users/alh/Desktop/codes/notes/14.nuxtJs/realworld-nuxtjs/pages/article"
+      }
+    ]
+  }
+]
